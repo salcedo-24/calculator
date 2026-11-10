@@ -38,28 +38,6 @@ Execute the program.
 bash
 python calculator.py
 
-
-Note: Replace calculator.py with the actual filename of your Python program if necessary.
-
-Project Structure
-text
-Python-Calculator/
-├── calculator.py
-├── screenshots/
-└── README.md
-
-
-The structure may vary depending on the actual implementation.
-
-Screenshots
-
-Add screenshots showing the calculator interface and sample calculations.
-
-text
-screenshots/
-├── calculator-interface.png
-└── calculation-result.png
-
 Project Objectives
 Understand Python programming fundamentals.
 Apply arithmetic operators in programming.
