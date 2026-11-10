@@ -1,0 +1,95 @@
+Calculator.py
+def line():
+    print("-"*100)
+
+print ("DCS Semestral GPA Calculator")
+
+print ("REGISTER HERE")
+FirstN = input ("Enter your First name:")
+MiddleIn = input ("Enter your Middle Intinial:")
+LastN = input ("Enter your Surname:")
+print ()
+
+
+print ("DEPARTMENT OF COMPUTER STUDIES COURSES")
+print("1. Bachelor of Science in Computer Science (BSCS)")
+print("2. Bachelor of Science in Information Technology (BSIT)")
+course = int(input("Enter course no.: "))
+print()
+
+print ("YEAR LEVEL")
+print ("1. First Year Student")
+print ("2. Second Year Student")
+print ("3. Third Year Student")
+print ("4. Fourth Year Student")
+year = int(input("Enter your Year level no.: "))
+
+line()
+print ("Name:", FirstN,MiddleIn,LastN)
+
+if course == 1:
+    print ("Course: BSCS")
+elif course == 2:
+    print ("Course: BSIT")
+else:
+    print ("Invalid Number. Please Choose Between 1 and 2 Only")
+
+if year == 1:
+    print ("Year Level: First Year Student")
+elif year == 2:
+        print ("Year Level: Second Year Student")
+elif year == 3:
+        print ("Year Level: Third Year Student")
+elif year == 4:
+        print ("Year Level: Fourth Year Student")
+else:
+    print ("Invalid Number. Please Choose Between 1 and 4 Only")
+line()
+print()
+
+print ("Enter your Grades on your different subjects")
+GNED01 = float(input("Enter your Grade in GNED01: "))
+GNED03  = float(input("Enter your Grade in GNED03: "))
+GNED06 = float(input("Enter your Grade in GNED06: "))
+FITT   = float(input("Enter your Grade in FITT02: "))
+DCIT   = float(input("Enter your Grade in DCIT23: "))
+ITEC   = float(input("Enter your Grade in ITEC50: "))
+NSTP   = float(input("Enter your Grade in NSTP02: "))
+GNED12   = float(input("Enter your Grade in GNED12: "))
+print()
+
+print ("COURSE SUBJECT GRADES")
+print("GNED01:", GNED01)
+print("GNED03:", GNED03)
+print("GNED06:", GNED06)
+print("FITT02:", FITT)
+print("DCIT23:", DCIT)
+print("ITEC50:", ITEC)
+print("NSTP02:", NSTP)
+print("GNED12:", GNED12)
+Total = GNED01 + GNED03 + GNED06 + FITT + DCIT + ITEC + NSTP + GNED12
+print()
+
+line()
+print ("Name:", FirstN,MiddleIn,LastN)
+
+if course == 1:
+    print ("Course: BSCS")
+elif course == 2:
+    print ("Course: BSIT")
+else:
+    print ("Invalid Number. Please Choose Between 1 and 2 Only")
+
+if year == 1:
+    print ("Year Level: First Year Student")
+elif year == 2:
+        print ("Year Level: Second Year Student")
+elif year == 3:
+        print ("Year Level: Third Year Student")
+elif year == 4:
+        print ("Year Level: Fourth Year Student")
+else:
+    print ("Invalid Number. Please Choose Between 1 and 4 Only")
+
+print ("GPA:", Total / 8)
+line()
